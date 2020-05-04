@@ -1,4 +1,4 @@
-# YouTube-Audio-Downloader
+# YouTube Audio Downloader
   
 * About the project:
   YAD (YouTube Audio Downloader) is an application that downloads a list of YouTube links in the best audio bitrate 
