@@ -116,7 +116,6 @@ class MainWindowFunctionality(qtw.QMainWindow):
                 msg_dwnld_success.setStandardButtons(qtw.QMessageBox.Ok)
                 msg_dwnld_success.exec_()
 
-                self.videos.clear()
                 self.clear_list()
 
             except Exception: # Displaying an appropriate message in case of an exception.
@@ -131,6 +130,7 @@ class MainWindowFunctionality(qtw.QMainWindow):
         """:
             Method to clear the list widget.
         """
+        self.videos.clear()
         self.ui.list_widget.clear()
         self.ui.list_widget.addItem('Video Titles: ')
 
