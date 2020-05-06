@@ -63,8 +63,12 @@ class MainWindowFunctionality(qtw.QMainWindow):
         try:
             self.link = self.ui.input_text.text()       # Getting the link from the text box.
             self.yt = YouTube(self.link)                # Fetching the link's attributes.
-            self.videos.append(self.yt)
             video_title = self.yt.title
+            while 'YouTube.' in video_title: # Sometimes the title has only 'YouTube' in it. Therefore we keep looping till the actual title is fetched.
+                self.yt = YouTube(self.link)
+                video_title = self.yt.title
+
+            self.videos.append(self.yt)
             self.ui.list_widget.addItem(video_title)    #Adding the link's title in the list widget.
             self.ui.input_text.clear()
         except Exception: # Displaying an appropriate message in case of an exception.
@@ -101,8 +105,7 @@ class MainWindowFunctionality(qtw.QMainWindow):
                         audio_quality = str(option)[start_index:end_index]
                         kbps_val.append(int(audio_quality))
 
-                    kbps_val.sort()
-                    max_quality = str(kbps_val[len(kbps_val) - 1])      # getting the maximum kbps value.
+                    max_quality = str(max(kbps_val))      # getting the maximum kbps value.
                     value_to_check = 'abr="' + max_quality + 'kbps"'
                     for i, item in enumerate(vid_formats):
                         if value_to_check in str(item):
