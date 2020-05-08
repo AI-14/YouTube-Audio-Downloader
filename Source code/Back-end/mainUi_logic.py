@@ -91,9 +91,8 @@ class MainWindowFunctionality(qtw.QMainWindow):
             msg_empty_list.setStandardButtons(qtw.QMessageBox.Ok)
             msg_empty_list.exec_()
         else:
-            # Here we are sorting the audio formats based on their [abr] attribute. Normally it ranges from 128kbps-160kbps.
-            # Also, the downloaded audio can be a .mp4 or a .webm file because we are specifically sorting according to kbps values.
-            # Hence, we are sorting to get the best kbps quality and then downloading it.
+            # Here we are getting the the audio formats based on their [abr] attribute. Normally it ranges from 128kbps-160kbps.
+            # Also, the downloaded audio can be a .mp4 or a .webm file because we are specifically getting maximum kbps value.
             try:
                 for item in self.videos:
                     vid_formats = item.streams.filter(only_audio=True)
