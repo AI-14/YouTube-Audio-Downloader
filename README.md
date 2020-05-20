@@ -30,7 +30,7 @@ python setup.py build
 ````
 After this you will be able to see several folders in your project folder. 
 
-Step 4: Go to **build->exe.win32-3.6** and you will be able to see **mainUi_logic.exe**.
+Step 4: Now in your project folder, go to **build->exe.win32-3.6** and you will be able to see **mainUi_logic.exe**.
 Now you can click on this .exe file or create a shortcut and give it 
 any name you want.
 
