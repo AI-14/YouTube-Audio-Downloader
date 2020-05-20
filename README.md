@@ -36,4 +36,4 @@ any name you want.
 
 Final step: Enjoy the app! Now you can download songs from YouTube without going to online websites with soo many ads and popups. One click and you get all the songs.
 
->**Note:** *If you get any errors, then try looking at youtube videos on how to use **cx_freeze** module.*
+>**Note:** *If you get any errors, then try looking at youtube videos on how to use **cx_Freeze** module.*
