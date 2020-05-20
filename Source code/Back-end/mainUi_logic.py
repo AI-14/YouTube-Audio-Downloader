@@ -130,7 +130,7 @@ class MainWindowFunctionality(qtw.QMainWindow):
                 error_msg.exec_()
 
     def clear_list(self):
-        """:
+        """
             Method to clear the list widget.
         """
         self.videos.clear()
