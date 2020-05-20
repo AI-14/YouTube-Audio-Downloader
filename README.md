@@ -4,8 +4,8 @@
   YouTube Audio Downloader is an application that downloads a list of YouTube links in the best audio bitrate format available and stores it in the destination folder chosen by the user. It is designed primarily for downloading songs/OSTs from YouTube. 
 
 ## Snapshots of the application
-![](Screenshots\1.png)
-![](Screenshots\2.png)
+![](Screenshots/1.png)
+![](Screenshots/2.png)
 
 ## How to create a .exe file?
 >**Note:** *Install the modules/frameworks/libraries that these scripts are using if you do not have them already. It is better to copy all of them in your project folder.*
