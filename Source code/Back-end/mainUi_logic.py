@@ -152,7 +152,7 @@ class MainWindowFunctionality(qtw.QMainWindow):
                 self.videos.remove(item)
 
 
-# STARTING THE APPLICATION
+#STARTING THE APPLICATION
 if __name__ == '__main__':
     app = qtw.QApplication([])
     win = MainWindowFunctionality()
