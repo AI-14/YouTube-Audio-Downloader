@@ -8,11 +8,11 @@
 ![](screenshots/2.png)
 
 ## How to create a .exe file?
->**Note:** *Install the modules/frameworks/libraries that these scripts are using if you do not have them already. It is better to copy all of them in your project folder.*
+>**Note:** *Install the modules/frameworks/libraries that these scripts are using if you do not have them already. It is better to copy all of them in your project folder or this repo folder when you download it.*
 
-Step 1: Download the python scripts from this repository into your newly created project folder. Run these scripts to check if they are working properly.
+Step 1: Download this repository or copy paste the files into your newly created project folder. Run these scripts to check if they are working properly.
 
-Step 2: Create a new module **setup.py** and copy paste the following code:
+Step 2: Create a new module **setup.py** and copy paste the following code (and save it in your project folder):
 
 ````markdown
 import sys
