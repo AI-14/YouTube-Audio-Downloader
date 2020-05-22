@@ -8,11 +8,11 @@
 ![](screenshots/2.png)
 
 ## How to create a .exe file?
->**Note:** *Install the modules/frameworks/libraries that these scripts are using if you do not have them already. It is better to copy all of them in your project folder or this repo folder when you download it.*
+>**Note:** *Install the modules/frameworks/libraries that these scripts are using if you do not have them already. It is better to copy all of them in the **src** folder.*
 
-Step 1: Download this repository or copy paste the files into your newly created project folder. Run these scripts to check if they are working properly.
+Step 1: Download this repository and run the scripts to check if they are working properly.
 
-Step 2: Create a new module **setup.py** and copy paste the following code (and save it in your project folder):
+Step 2: Create a new module **setup.py** and copy paste the following code (and save it in **src**):
 
 ````markdown
 import sys
@@ -24,13 +24,13 @@ setup(name='YouTube Audio Downloader',
       executables=[Executable('mainUi_logic.py', base='Win32GUI')])
 ````
 
-Step 3: Go to your project folder and open **cmd**. Type the following command:
+Step 3: Go to **src** and open **cmd**. Type the following command:
 ````markdown
 python setup.py build
 ````
-After this you will be able to see **build** folder in your project folder. 
+After this you will be able to see **build** folder in **src**. 
 
-Step 4: Now in your project folder, go to **build->exe.win32-3.6** and you will be able to see **mainUi_logic.exe**.
+Step 4: Now in the **src** folder, go to **build->exe.win32-3.6** and you will be able to see **mainUi_logic.exe**.
 Now you can click on this .exe file or create a shortcut and give it 
 any name you want.
 
