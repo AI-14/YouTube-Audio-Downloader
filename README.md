@@ -8,7 +8,7 @@
 ![](screenshots/2.png)
 
 ## How to create a .exe file?
-Download this repository and create a virtual environment folder in the **cmd** using the command ````python -m venv venv````. After this, in your **cmd**, install the following modules/packages:
+Download this repository and create a virtual environment folder in the **cmd** using the command ````python -m venv venv````. Activate this venv using the command ````venv\Scripts\activate.bat```` and then install the following modules/packages:
 ````
 pip install PyQt5
 pip install pytube3
