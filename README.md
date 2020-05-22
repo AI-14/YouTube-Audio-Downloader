@@ -8,7 +8,7 @@
 ![](screenshots/2.png)
 
 ## How to create a .exe file?
->**Note:** *Install the modules/frameworks/libraries that these scripts are using. It is better to copy all of them in the **src** folder.*
+>**Note:** *Install the modules/frameworks/libraries that these scripts are using (create a virtual environment).*
 
 Step 1: Download this repository and run the scripts to check if they are working properly.
 
