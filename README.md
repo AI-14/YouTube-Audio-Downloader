@@ -15,6 +15,7 @@ pip install pytube3
 pip install typing-extensions
 pip install cx-Freeze
 ````
+>**Note:** ***venv** should be created in this repo.*
 
 *Now follow these steps*
 
