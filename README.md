@@ -3,11 +3,11 @@
 ## Description
   YouTube Audio Downloader is an application that downloads a list of YouTube links in the best audio bitrate format available and stores it in the destination folder chosen by the user. It is designed primarily for downloading songs/OSTs from YouTube. 
 
-## Screenshots of the Application
+## Screenshots Of The Application
 ![](screenshots/1.png)
 ![](screenshots/2.png)
 
-## How to Create a .exe File?
+## How To Create A .exe File?
 Download this repository and create a virtual environment folder in the **cmd** using the command ````python -m venv venv````. Activate this venv using the command ````venv\Scripts\activate.bat```` and then install the following modules/packages:
 ````
 pip install PyQt5
