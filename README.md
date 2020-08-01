@@ -1,4 +1,5 @@
 ﻿# YouTube Audio Downloader
+   ![Python](https://img.shields.io/badge/-Python-black?style=flat&logo=python)
   
 ## Description
   YouTube Audio Downloader is an application that downloads a list of YouTube links in the best audio bitrate format available and stores it in the destination folder chosen by the user. It is designed primarily for downloading songs/OSTs from YouTube. 
